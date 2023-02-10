@@ -64,7 +64,6 @@ export default function TokenizeForm() {
         priceInWei,
         dateInSeconds
       );
-      await txn.wait();
 
       setFarmerName("");
       setDescription("");
